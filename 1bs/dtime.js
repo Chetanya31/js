@@ -1,0 +1,7 @@
+let mdt=new Date()
+console.log(mdt)
+console.log(mdt.toDateString())
+console.log(mdt.toISOString())
+console.log(mdt.toJSON())
+console.log(mdt.toLocaleString())
+console.log(mdt.toLocaledateString())
