@@ -53,3 +53,36 @@ console.log(Object.values(tp));
 console.log(Object.entries(tp));//[key,value] array
 
 console.log(tp.hasOwnProperty("id"));
+
+
+
+// object destructuring
+
+
+const course={
+    cname:"js",
+    price:"333",
+    cinstr:"chetan"
+
+}
+// course.course.cinstr
+const {cinstr:citr}=course// cinstr chang to citr
+
+
+console.log(citr)
+
+// json API
+
+
+// {
+//     "name":"chetan",
+//     "yr":24,
+//     "lname":"sharma"
+
+// }
+
+
+[
+    {},
+    {}
+]
